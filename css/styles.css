@@ -1,0 +1,23 @@
+.bg-color {
+    background-color: rgb(241, 237, 237);
+}
+
+.toggle {
+    width: 306px;
+}
+
+.calendar {
+    width: 20px;
+}
+
+.star {
+    width: 25px;
+}
+
+.cards {
+    margin-left: 28px;
+}
+
+.navbar {
+    margin-left: 350px;
+}

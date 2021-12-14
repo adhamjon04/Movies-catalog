@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movies catalog</title>
+
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css" />
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+
+    <section class="mover bg-color pb-5">
+        <div class="container">
+            <div class="row gy-5">
+                <div class=" ">
+                    <h2 class="text-center mt-5">
+                        Movies catalog
+                    </h2>
+                </div>
+                <div class="col-3 mx-4">
+
+                    <input class="form-control mb-3" type="text" placeholder="" aria-label=".form-control example">
+                    <input class="form-control mb-3" type="number" placeholder="" aria-label="default input example">
+                    <select class="form-select  mb-3" aria-label=".form-select example">
+                      <option selected>All</option>
+                      <option value="1">One</option>
+                      <option value="2">Two</option>
+                      <option value="3">Three</option>
+                    </select>
+                    <select class="form-select mb-3" aria-label=".form-select example">
+                      <option selected>Rating (high to low)</option>
+                      <option value="1">One</option>
+                      <option value="2">Two</option>
+                      <option value="3">Three</option>
+                    </select>
+                    <button type="submit" class="btn btn-primary mb-3 toggle">Search</button>
+
+                    <h2>
+                        Bookmarked movie<s></s>
+                    </h2>
+                    <div class="card" style="width: 18rem;">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <h6>
+                                    Avengers:Infinity War
+                                </h6>
+                                <button type="submit" class="btn btn-danger mb-3 ">Remove</button>
+                            </li>
+                            <li class="list-group-item">
+                                <h6>
+                                    The Avengers
+                                </h6>
+                                <button type="submit" class="btn btn-danger mb-3 ">Remove</button>
+                            </li>
+                            <li class="list-group-item">
+                                <h6>
+                                    12 Years Slave
+                                </h6>
+                                <button type="submit" class="btn btn-danger mb-3 ">Remove</button>
+                            </li>
+
+                        </ul>
+                    </div>
+
+
+                </div>
+                <div class="col-8">
+                    <h4>
+                        Search results:39
+                    </h4>
+                    <div class="alert alert-primary" role="alert">
+                        Use the form on the left to search for a movie
+                    </div>
+                    <div class="d-flex">
+                        <div class="card " style="width: 26rem;">
+                            <img src="img/maxresdefault.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Avenger:Infinity War</h5>
+                            </div>
+                            <div class="d-flex">
+                                <img class="calendar mx-3" src="img/calendar-minus-solid.svg" alt="">
+                                <strong>2018</strong>
+                            </div>
+                            <div class="d-flex">
+                                <img class="star mt-4 mx-3" src="img/2048px-Gold_Star.svg.png" alt="star ">
+                                <small class="mt-4 ">8.7</small>
+
+                            </div>
+
+                            <div class="card-body pb-3">
+                                <button type="button" class=" mx-2 btn btn-outline-primary">Watch trailer</button>
+                                <button type="button" class=" mx-2 btn btn-outline-secondary">More info</button>
+                                <button type="button" class="mx-2 btn btn-outline-success">Bookmark</button>
+                            </div>
+                        </div>
+                        <div class="card cards" style="width: 26rem;">
+                            <img src="img/marvel-s-avengers-iron-man-1278325.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">The Avengers</h5>
+
+                            </div>
+                            <div class="d-flex">
+                                <img class="calendar mx-3" src="img/calendar-minus-solid.svg" alt="">
+                                <strong>2012</strong>
+                            </div>
+                            <div class="d-flex">
+                                <img class="star mt-4 mx-3" src="img/2048px-Gold_Star.svg.png" alt="star ">
+                                <small class="mt-4 ">8.1</small>
+
+                            </div>
+
+
+
+                            <div class="card-body pb-3 gx-3 ">
+                                <button type="button" class=" mx-2 btn btn-outline-primary">Watch trairel</button>
+                                <button type="button" class=" mx-2 btn btn-outline-secondary">More info</button>
+                                <button type="button" class=" mx-2 btn btn-outline-success">Bookmark</button>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <nav class="navbar mt-4 " aria-label="...">
+                        <ul class="pagination ">
+                            <li class="page-item active" aria-current="page">
+                                <span class="page-link">1</span>
+                            </li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item"><a class="page-link" href="#">4</a></li>
+                        </ul>
+                    </nav>
+
+
+
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+
+
+    <script src="js/bootstrap.bundle.min.js "></script>
+    <script src="js/index.js "></script>
+</body>
+
+</html>
